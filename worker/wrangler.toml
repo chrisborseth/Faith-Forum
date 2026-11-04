@@ -1,0 +1,12 @@
+name = "faith-forum-api"
+main = "index.js"
+compatibility_date = "2026-11-04"
+
+[vars]
+ALLOWED_ORIGIN = "https://chrisborseth.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "faith-forum"
+database_id = "REPLACE_WITH_D1_DATABASE_UUID"
+migrations_dir = "migrations"
